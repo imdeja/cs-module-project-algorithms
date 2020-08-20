@@ -4,6 +4,7 @@ Returns: an integer
 '''
 def single_number(arr):
     return 2 * sum(set(arr)) - sum(arr)
+    # Ran 1 test in 0.001s
 
 
 
